@@ -26,14 +26,29 @@ return require('packer').startup(function(use)
   use {
     'sainnhe/everforest', config = function() vim.cmd.colorscheme('everforest') end
   }
+  -- For syntax highlighting
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
+
+  -- To easily jump between files
   use('ThePrimeagen/harpoon')
+
+  -- To keep track of changes made to files
   use('mbbill/undotree')
+
+  -- Git configuration
   use('tpope/vim-fugitive')
+
+  -- To easily comment/uncomment lines
   use('preservim/nerdcommenter')
+
+  -- Adds some flare to the bottom of the screen with extra info
   use('vim-airline/vim-airline')
+
+  -- Real time git feedback when editing files
   use('airblade/vim-gitgutter')
+
+  -- LSP support. The big one!
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v3.x',
