@@ -10,4 +10,4 @@ Here's what I have so far...
   - https://www.youtube.com/watch?v=w7i4amO_zaE&t=1149s
 
  - Take a look at the wiki to see what I've written down so far
-    - wiki
+    - https://github.com/trevorhauter/nvtrev/wiki
