@@ -7,22 +7,22 @@ vim.opt.termguicolors = true
 
 -- The following code is to allow for us to toggle the width of nvim-tree in cases
 -- that we have long file names/paths :) (TODO: Should this live somewhere else?)
-local VIEW_WIDTH_FIXED = 30
-local view_width_max = VIEW_WIDTH_FIXED -- fixed to start
+_G.VIEW_WIDTH_FIXED = 30
+_G.view_width_max = _G.VIEW_WIDTH_FIXED -- fixed to start
 
 -- toggle the width and redraw
-local function toggle_width_adaptive()
-  if view_width_max == -1 then
-    view_width_max = VIEW_WIDTH_FIXED
+_G.toggle_width_adaptive = function()
+  if _G.view_width_max == -1 then
+    _G.view_width_max = _G.VIEW_WIDTH_FIXED
   else
-    view_width_max = -1
+    _G.view_width_max = -1
   end
 
   require("nvim-tree.api").tree.reload()
 end
 
-local function get_view_width_max()
-  return view_width_max
+_G.get_view_width_max = function()
+  return _G.view_width_max
 end
 -- End nvim-tree width logic 
 
@@ -31,17 +31,14 @@ require("nvim-tree").setup({
     view = {
         width = {
             min = 30,
-            max = get_view_width_max,
+            max = _G.get_view_width_max,
         }
     },
     filters = { custom = { "^.git$", "^.gitignore$" } },
-    -- Should we be binding this here? With the given structure of this config, I'm not so sure. I will have to revisit
-    -- this when I become smarter. Good luck future me!
-    on_attach = function ()
-        vim.keymap.set('n', 'A', toggle_width_adaptive, { noremap = true, silent = true, expr = false, script = false })
-    end
 })
 -- ^ All of the above lines are nvim-tree config
+
+vim.api.nvim_set_keymap('n', 'A', '<cmd>lua toggle_width_adaptive()<CR>', { noremap = true, silent = true })
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
