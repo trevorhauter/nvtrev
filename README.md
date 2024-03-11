@@ -1,6 +1,6 @@
 # nvTrev - From one dummy to another
 
-nvTrev is my hottes new nvim config on the market. With this readme, anybody will be able to code just like the legendary Trevor Hauter (once it's complete)!
+nvTrev is the hottest new nvim config on the market. With this readme, anybody will be able to code just like the legendary Trevor Hauter (once it's complete)!
 
 ### The initial setup
 DISCLAIMER: I'm still working on this config, so I'm not going to flesh out this readme yet. But I will soon, I promise!
