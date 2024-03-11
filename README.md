@@ -2,6 +2,9 @@
 
 nvTrev is the hottest new nvim config on the market. With nvTrev, anybody will be able to code just like the legendary Trevor Hauter (once it's complete)!
 
+### Quickstart
+https://github.com/trevorhauter/nvtrev/wiki/Quickstart
+
 ### The initial setup
 DISCLAIMER: I'm still working on this config, so I'm not going to flesh out this readme yet. But I will soon, I promise!
 
