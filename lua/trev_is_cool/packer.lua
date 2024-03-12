@@ -31,7 +31,12 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/playground')
 
   -- To easily jump between files
-  use('ThePrimeagen/harpoon')
+  use "nvim-lua/plenary.nvim" 
+  use {
+      "ThePrimeagen/harpoon",
+      branch = "harpoon2",
+      requires = { {"nvim-lua/plenary.nvim"} }
+  }
 
   -- To keep track of changes made to files
   use('mbbill/undotree')
