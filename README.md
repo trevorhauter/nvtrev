@@ -2,16 +2,13 @@
 
 nvTrev is the hottest new nvim config on the market. With nvTrev, anybody will be able to code just like the legendary Trevor Hauter!
 
+Full disclosure, I made this following Primagens video. You'd best watch it if you'd like to know how I got here. I mean, he didn't have all these plugins but the entire layout and base of this is his. I also didn't watch to the end because I went down a huge rabbit hole so I haven't done the remaps he mentions at the end of his video. Anyways... 
+  - https://www.youtube.com/watch?v=w7i4amO_zaE&t=1149s
+
 ### Getting started
 - Quickstart tutorial - https://github.com/trevorhauter/nvtrev/wiki/Quickstart
 - Keybindings - [https://github.com/trevorhauter/nvtrev/wiki/Quickstart](https://github.com/trevorhauter/nvtrev/wiki/Keybindings)
 - The rest of the wiki... https://github.com/trevorhauter/nvtrev/wiki
-
-### The setup
-DISCLAIMER: This config, along with the documentation are all a work in progress, so bare with me!
-
-- I made this repo from Primagens video. You'd best watch it if you'd like to know how I got here. 
-  - https://www.youtube.com/watch?v=w7i4amO_zaE&t=1149s
  
 ### Plugins
 We have all kinds of plugins in nvTrev, the current configuration can be found in [packer.lua](https://github.com/trevorhauter/nvtrev/blob/main/lua/trev_is_cool/packer.lua). We have...
