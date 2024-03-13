@@ -33,7 +33,6 @@ require('mason-lspconfig').setup({
     
     clangd = function()
       require('lspconfig').clangd.setup({
-        cmd = { 'clangd-12', '--background-index' },
         on_attach = function(client, bufnr)
           -- Your custom C/C++ configurations here
           require('lsp_signature').on_attach()  -- Optional: Display function signatures
