@@ -27,6 +27,8 @@ return require('packer').startup(function(use)
     'sainnhe/everforest', config = function() vim.cmd.colorscheme('everforest') end
   }
   -- For syntax highlighting
+  -- At the moment, it doesn't seem like TSUpdate is auto-running. So if you run into issues with treesitter,
+  -- run that command
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
 

@@ -4,7 +4,7 @@ function ColorMyPencils(color)
     end
 	color = color or "everforest"
 	vim.cmd.colorscheme(color)
-        vim.o.background = "dark"
+        vim.o.background = "light"
     vim.g.everforest_background = 'soft'
     vim.g.everforest_better_performance = 1
 end
