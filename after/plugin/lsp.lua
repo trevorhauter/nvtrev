@@ -14,7 +14,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {'clangd', 'pyright', 'tsserver', 'html'},
+  ensure_installed = {'clangd', 'omnisharp_mono', 'pyright', 'tsserver', 'html'},
   handlers = {
     lsp_zero.default_setup,
 
@@ -62,7 +62,9 @@ require('mason-lspconfig').setup({
       require('lspconfig').tsserver.setup({})
     end,
 
-
+    omnisharp_mono = function()
+      require('lspconfig').omnisharp_mono.setup({})
+    end,
 
   },
 })
