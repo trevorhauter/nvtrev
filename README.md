@@ -2,7 +2,7 @@
 
 nvTrev is the hottest new nvim config on the market. With nvTrev, anybody will be able to code just like the legendary Trevor Hauter!
 
-Full disclosure, I made this following Primagens video. You'd best watch it if you'd like to know how I got here. I mean, he didn't have all these plugins but the entire layout and base of this is his. I also didn't watch to the end because I went down a huge rabbit hole so I haven't done the remaps he mentions at the end of his video. Anyways... 
+Full disclosure, I made the foundation of this following Primagens video. You'd best watch it if you'd like to know how I got here. I've customized it a lot myself, but this was the foundation. Also, this is not supposed to be a base config anybody can use. It's just what i use. Anyways... 
   - https://www.youtube.com/watch?v=w7i4amO_zaE&t=1149s
 
 ### Getting started
@@ -25,4 +25,5 @@ We have all kinds of plugins in nvTrev, the current configuration can be found i
 - [vim-gitgutter](https://github.com/airblade/vim-gitgutter) - Because I want to see git diff markers every time I make a change in a file!
 - [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim) - For LSPs baby! (along with whatever other packer plugins are included in the default lsp-zero config)
 - [mason](https://github.com/williamboman/mason.nvim) - (In tandem with lsp-zero) so we can install an lsp server as easy as a packer plugin!
+- [symbols-outline](https://github.com/simrat39/symbols-outline.nvim) - To know where you are in your file (I'm not really sure about this one honestly. Good chance I remove it)
  
