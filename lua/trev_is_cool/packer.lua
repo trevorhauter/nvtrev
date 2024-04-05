@@ -55,6 +55,9 @@ return require('packer').startup(function(use)
   -- Real time git feedback when editing files
   use('airblade/vim-gitgutter')
 
+  -- To add some context to where you are in your file
+  use('simrat39/symbols-outline.nvim') 
+  
   -- LSP support. The big one!
   use {
 	  'VonHeikemen/lsp-zero.nvim',

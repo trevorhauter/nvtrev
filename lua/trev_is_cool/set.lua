@@ -38,6 +38,8 @@ require("nvim-tree").setup({
 })
 -- ^ All of the above lines are nvim-tree config
 
+require("symbols-outline").setup()
+
 vim.api.nvim_set_keymap('n', 'A', '<cmd>lua toggle_width_adaptive()<CR>', { noremap = true, silent = true })
 
 vim.opt.nu = true
