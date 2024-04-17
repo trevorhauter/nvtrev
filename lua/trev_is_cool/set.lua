@@ -38,6 +38,23 @@ require("nvim-tree").setup({
 })
 -- ^ All of the above lines are nvim-tree config
 
+
+-- AUTO FORMATTING STUFF
+vim.api.nvim_create_augroup("AutoFormat", {})
+
+vim.api.nvim_create_autocmd(
+    "BufWritePost",
+    {
+        pattern = "*.py",
+        group = "AutoFormat",
+        callback = function()
+            vim.cmd("silent !black --quiet %")            
+            vim.cmd("edit")
+        end,
+    }
+)
+-- END AUTO FORMATTING STUFF
+
 require("symbols-outline").setup()
 
 vim.api.nvim_set_keymap('n', 'A', '<cmd>lua toggle_width_adaptive()<CR>', { noremap = true, silent = true })
