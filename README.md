@@ -13,17 +13,18 @@ Full disclosure, I created this following Primagens tutorial. You'd best watch i
 ### Plugins
 We have all kinds of plugins in nvTrev, the current configuration can be found in [packer.lua](https://github.com/trevorhauter/nvtrev/blob/main/lua/trev_is_cool/packer.lua). We have...
 
-- [Telescope](https://github.com/nvim-telescope/telescope.nvim) - To help us find the files we need
-- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - To help us navigate the file tree whenever we need it
-- [sainnhe/everforest](https://github.com/sainnhe/everforest) - Because every IDE needs a beautiful theme!
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - For syntax highlighting!
-- [harpoon](https://github.com/ThePrimeagen/harpoon) - To keep our files close to us and easily jump between them
-- [undotree](https://github.com/mbbill/undotree) - To visualize the history of our files (I've never used this)
+- [Ale](https://github.com/dense-analysis/ale) - For linting!
 - [fugitive](https://github.com/tpope/vim-fugitive) - To enable git interactions right inside of nvTrev!
+- [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim) - For LSPs baby! (along with whatever other packer plugins are included in the default lsp-zero config)
+- [harpoon](https://github.com/ThePrimeagen/harpoon) - To keep our files close to us and easily jump between them
 - [nerdcommenter](https://github.com/preservim/nerdcommenter) - To easily be able to comment out lines
+- [mason](https://github.com/williamboman/mason.nvim) - (In tandem with lsp-zero) so we can install an lsp server as easy as a packer plugin!
+- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - To help us navigate the file tree whenever we need it
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - For syntax highlighting!
+- [sainnhe/everforest](https://github.com/sainnhe/everforest) - Because every IDE needs a beautiful theme!
+- [symbols-outline](https://github.com/simrat39/symbols-outline.nvim) - To know where you are in your file (I'm not really sure about this one honestly. Good chance I remove it)
+- [Telescope](https://github.com/nvim-telescope/telescope.nvim) - To help us find the files we need
+- [undotree](https://github.com/mbbill/undotree) - To visualize the history of our files (I've never used this)
 - [vim-airline](https://github.com/vim-airline/vim-airline) - To give us a beautiful (and informative!) status bar
 - [vim-gitgutter](https://github.com/airblade/vim-gitgutter) - Because I want to see git diff markers every time I make a change in a file!
-- [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim) - For LSPs baby! (along with whatever other packer plugins are included in the default lsp-zero config)
-- [mason](https://github.com/williamboman/mason.nvim) - (In tandem with lsp-zero) so we can install an lsp server as easy as a packer plugin!
-- [symbols-outline](https://github.com/simrat39/symbols-outline.nvim) - To know where you are in your file (I'm not really sure about this one honestly. Good chance I remove it)
  
