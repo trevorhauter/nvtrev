@@ -55,6 +55,18 @@ vim.api.nvim_create_autocmd(
 )
 -- END AUTO FORMATTING STUFF
 
+-- LINTING STUFF
+vim.g.ale_fixers = {
+    javascript = {'eslint'}
+}
+
+vim.g.ale_sign_error = '🔥'
+vim.g.ale_sign_warning = '🧐'
+
+vim.g.ale_fix_on_save = 1
+-- END LINTING STUFF
+
+
 require("symbols-outline").setup()
 
 vim.api.nvim_set_keymap('n', 'A', '<cmd>lua toggle_width_adaptive()<CR>', { noremap = true, silent = true })

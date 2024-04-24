@@ -58,6 +58,9 @@ return require('packer').startup(function(use)
   -- To add some context to where you are in your file
   use('simrat39/symbols-outline.nvim') 
   
+  -- Linting!
+  use('dense-analysis/ale')
+  
   -- LSP support. The big one!
   use {
 	  'VonHeikemen/lsp-zero.nvim',
