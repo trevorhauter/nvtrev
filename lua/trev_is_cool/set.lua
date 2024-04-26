@@ -60,6 +60,14 @@ vim.g.ale_fixers = {
     javascript = {'eslint'}
 }
 
+vim.g.ale_linters = {
+    javascript = {'eslint'},
+    ['javascript.jsx'] = {'eslint'},
+    typescript = {'eslint'},
+    ['typescript.tsx'] = {'eslint'},
+    html = {},
+}
+
 vim.g.ale_sign_error = '🔥'
 vim.g.ale_sign_warning = '🧐'
 
