@@ -14,7 +14,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {'clangd', 'omnisharp_mono', 'pyright', 'tsserver', 'html'},
+  ensure_installed = {'clangd', 'omnisharp_mono', 'pyright', 'tsserver', 'emmet_ls'},
   handlers = {
     lsp_zero.default_setup,
 
@@ -40,20 +40,11 @@ require('mason-lspconfig').setup({
       })
     end,
 
-    html = function()
+    emmet_ls = function()
       local capabilities = vim.lsp.protocol.make_client_capabilities()
       capabilities.textDocument.completion.completionItem.snippetSupport = true
 
-      require('lspconfig').html.setup({
-        capabilities = capabilities,
-      })
-    end,
-
-    cssls = function()
-      local capabilities = vim.lsp.protocol.make_client_capabilities()
-      capabilities.textDocument.completion.completionItem.snippetSupport = true
-
-      require('lspconfig').cssls.setup({
+      require('lspconfig').emmet_ls.setup({
         capabilities = capabilities,
       })
     end,
@@ -69,25 +60,3 @@ require('mason-lspconfig').setup({
   },
 })
 
--- python language server
---require('lspconfig').pyright.setup({})
--- c++/c language server. (Are they the same? I don't actually know...)
---require('lspconfig').clangd.setup({
-    --cmd = { 'clangd-12', '--background-index' },  -- Adjust the version number as needed
-    --on_attach = function(client, bufnr)
-        -- Your custom C/C++ configurations here
-        --require('lsp_signature').on_attach()  -- Optional: Display function signatures
-    --end
---})
-
--- html language server!
---local capabilities = vim.lsp.protocol.make_client_capabilities()
---capabilities.textDocument.completion.completionItem.snippetSupport = true
-
---require('lspconfig').html.setup {
-  --capabilities = capabilities,
---}
---require('lspconfig').cssls.setup {
-  --capabilities = capabilities,
---}
---require('lspconfig').tsserver.setup({})
