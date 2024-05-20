@@ -61,6 +61,9 @@ return require('packer').startup(function(use)
   -- Linting!
   use('dense-analysis/ale')
   
+  -- sorting python imports
+  use('stsewd/isort.nvim')
+
   -- LSP support. The big one!
   use {
 	  'VonHeikemen/lsp-zero.nvim',
