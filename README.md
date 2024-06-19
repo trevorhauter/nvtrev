@@ -1,6 +1,6 @@
 # nvTrev - From one dummy to another
 
-nvTrev is the hottest new nvim config on the market. With nvTrev, anybody will be able to code just like the legendary Trevor Hauter! This is not meant to be a base config for others to use however they want (although, they could). It's literally just my config.
+nvTrev is the hottest new neovim config on the market. With nvTrev, anybody will be able to code just like the legendary Trevor Hauter! This is not meant to be a base config for others to use however they want (although, they could). It's just the config that the legendary Trevor Hauter uses.
 
 Full disclosure, I created this following Primagens tutorial. You'd best watch it if you'd like to know how I got here. I've done a ton of customization since then, but if you're a beginner like me, that video is very helpful! 
   - https://www.youtube.com/watch?v=w7i4amO_zaE
