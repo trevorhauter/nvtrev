@@ -79,9 +79,9 @@ return require('packer').startup(function(use)
 
   -- TELESCOPE - to help us find what we need anywhere in our project
   use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.5',
+	  'nvim-telescope/telescope.nvim', tag = '0.1.8',
 	  -- or                            , branch = '0.1.x',
-	  requires = { {'nvim-lua/plenary.nvim'} }
+	  requires = { {'nvim-lua/plenary.nvim'} } -- plenary is imported above... Do I need this here?
   }
 
 
