@@ -4,21 +4,21 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-  -- Ale - for linting!
+  -- ALE - for linting!
   use('dense-analysis/ale')
   
 
-  -- everforest - a beautiful theme!
+  -- EVERFORECT - a beautiful theme!
   use {
     'sainnhe/everforest', config = function() vim.cmd.colorscheme('everforest') end
   }
 
 
-  -- Fugitive - git integration 
+  -- FUGITIVE - git integration 
   use('tpope/vim-fugitive')
 
 
-  -- Harpoon (and dependencies) - To easily jump between files
+  -- HARPOON (and dependencies) - To easily jump between files
   use "nvim-lua/plenary.nvim" 
   use {
       "ThePrimeagen/harpoon",
@@ -27,11 +27,11 @@ return require('packer').startup(function(use)
   }
 
 
-  -- Isort - sorting python imports
+  -- ISORT - sorting python imports (might remove)
   use('stsewd/isort.nvim')
 
 
-  -- lsp-zero - LSP support. The big one!
+  -- LSP-ZERO - LSP support. The big one!
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v3.x',
@@ -49,11 +49,11 @@ return require('packer').startup(function(use)
   }
 
 
-  -- nerdcommenter - To easily comment/uncomment lines
+  -- NERDCOMMENTER - To easily comment/uncomment lines
   use('preservim/nerdcommenter')
 
 
-  -- nvim-tree - file tree navigation!
+  -- NVIM-TREE - file tree navigation!
   use {
       'nvim-tree/nvim-tree.lua',
       requires = {
@@ -62,22 +62,22 @@ return require('packer').startup(function(use)
   }
 
 
-  -- nvim-treesitter (and dependencies) - For syntax highlighting
+  -- NVIM-TREESITTER (and dependencies) - For syntax highlighting
   -- At the moment, it doesn't seem like TSUpdate is auto-running. So if you run into issues with treesitter,
   -- run that command
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
 
 
-  -- Packer - it can manage itself
+  -- PACKER - it can manage itself
   use 'wbthomason/packer.nvim'
 
 
-  -- symbols-outline - To add some context to where you are in your file (might remove this...)
+  -- SYMBOLS-OUTLINE - To add some context to where you are in your file (might remove this...)
   use('simrat39/symbols-outline.nvim') 
 
 
-  -- telescope - to help us find what we need anywhere in our project
+  -- TELESCOPE - to help us find what we need anywhere in our project
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.5',
 	  -- or                            , branch = '0.1.x',
@@ -85,15 +85,15 @@ return require('packer').startup(function(use)
   }
 
 
-  -- undotree - To keep track of changes made to files
+  -- UNDOTREE - To keep track of changes made to files
   use('mbbill/undotree')
 
 
-  -- vim-airling - Adds some flare to the bottom of the screen with extra info
+  -- VIM-AIRLINE - Adds some flare to the bottom of the screen with extra info
   use('vim-airline/vim-airline')
 
 
-  -- vim-gitugtter - Real time git feedback when editing files
+  -- VIM-GITGUTTER - Real time git feedback when editing files
   use('airblade/vim-gitgutter')
 
 
