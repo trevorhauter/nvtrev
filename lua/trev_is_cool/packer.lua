@@ -100,4 +100,8 @@ return require('packer').startup(function(use)
   use('airblade/vim-gitgutter')
 
 
+  -- VIM-WIKI - For all of my organization, documentation, and note taking needs!
+  use('vimwiki/vimwiki') 
+
+
  end) 
