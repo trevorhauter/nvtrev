@@ -8,7 +8,7 @@ return require('packer').startup(function(use)
   use('dense-analysis/ale')
   
 
-  -- EVERFORECT - a beautiful theme!
+  -- EVERFOREST - a beautiful theme!
   use {
     'sainnhe/everforest', config = function() vim.cmd.colorscheme('everforest') end
   }
@@ -31,7 +31,7 @@ return require('packer').startup(function(use)
   use('stsewd/isort.nvim')
 
 
-  -- LSP-ZERO - LSP support. The big one!
+  -- LSP-ZERO (includes mason) - LSP support. The big one!
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v3.x',
