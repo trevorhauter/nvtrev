@@ -18,6 +18,9 @@ return require('packer').startup(function(use)
   use('tpope/vim-fugitive')
 
 
+  -- QUICKSCOPE - fast in-line navigation
+  use('unblevable/quick-scope')
+
   -- HARPOON (and dependencies) - To easily jump between files
   use "nvim-lua/plenary.nvim" 
   use {
