@@ -15,10 +15,12 @@ We have all kinds of plugins in nvTrev, the current configuration can be found i
 
 - [Ale](https://github.com/dense-analysis/ale) - For linting!
 - [fugitive](https://github.com/tpope/vim-fugitive) - To enable git interactions right inside of nvTrev!
-- [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim) - For LSPs baby! (along with whatever other packer plugins are included in the default lsp-zero config)
+- [quick-scope](https://github.com/unblevable/quick-scope) - To make in-line navigation a breeze!
 - [harpoon](https://github.com/ThePrimeagen/harpoon) - To keep our files close to us and easily jump between them
-- [nerdcommenter](https://github.com/preservim/nerdcommenter) - To easily be able to comment out lines
+- [isort](https://github.com/stsewd/isort.nvim) - To sort python imports! (This one is basically in trial mode. Not too sure about it yet)
+- [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim) - For LSPs baby! (along with whatever other packer plugins are included in the default lsp-zero config)
 - [mason](https://github.com/williamboman/mason.nvim) - (In tandem with lsp-zero) so we can install an lsp server as easy as a packer plugin!
+- [nerdcommenter](https://github.com/preservim/nerdcommenter) - To easily be able to comment out lines
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - To help us navigate the file tree whenever we need it
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - For syntax highlighting!
 - [sainnhe/everforest](https://github.com/sainnhe/everforest) - Because every IDE needs a beautiful theme!
@@ -26,6 +28,4 @@ We have all kinds of plugins in nvTrev, the current configuration can be found i
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim) - To help us find the files we need
 - [undotree](https://github.com/mbbill/undotree) - To visualize the history of our files (I've never used this)
 - [vim-airline](https://github.com/vim-airline/vim-airline) - To give us a beautiful (and informative!) status bar
-- [vim-gitgutter](https://github.com/airblade/vim-gitgutter) - Because I want to see git diff markers every time I make a change in a file!
-- [isort](https://github.com/stsewd/isort.nvim) - To sort python imports! (This one is basically in trial mode. Not too sure about it yet)
- 
+- [vim-gitgutter](https://github.com/airblade/vim-gitgutter) - Because I want to see git diff markers every time I make a change in a file! 
