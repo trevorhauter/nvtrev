@@ -17,7 +17,7 @@ We have all kinds of plugins in nvTrev, the current configuration can be found i
 - [everforest](https://github.com/sainnhe/everforest) - Because every IDE needs a beautiful theme!
 - [fugitive](https://github.com/tpope/vim-fugitive) - To enable git interactions right inside of nvTrev!
 - [quick-scope](https://github.com/unblevable/quick-scope) - To make in-line navigation a breeze!
-- [harpoon](https://github.com/ThePrimeagen/harpoon) - To keep our files close to us and easily jump between them
+- [harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) - To keep our files close to us and easily jump between them
 - [isort](https://github.com/stsewd/isort.nvim) - To sort python imports! (This one is basically in trial mode. Not too sure about it yet)
 - [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim) - For LSPs baby! (along with whatever other packer plugins are included in the default lsp-zero config)
 - [mason](https://github.com/williamboman/mason.nvim) - (In tandem with lsp-zero) so we can install an lsp server as easy as a packer plugin!
