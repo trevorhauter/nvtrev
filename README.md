@@ -7,7 +7,7 @@ Full disclosure, I created this following Primagens tutorial. You'd best watch i
 
 ### Getting started
 - Quickstart tutorial - https://github.com/trevorhauter/nvtrev/wiki/Quickstart
-- Keybindings - [https://github.com/trevorhauter/nvtrev/wiki/Quickstart](https://github.com/trevorhauter/nvtrev/wiki/Keybindings)
+- Keybindings - [https://github.com/trevorhauter/nvtrev/wiki/Keybindings](https://github.com/trevorhauter/nvtrev/wiki/Keybindings)
 - The rest of the wiki... https://github.com/trevorhauter/nvtrev/wiki
  
 ### Plugins
