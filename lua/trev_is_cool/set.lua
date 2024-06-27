@@ -74,6 +74,11 @@ vim.g.ale_sign_warning = '🧐'
 vim.g.ale_fix_on_save = 1
 -- END LINTING STUFF
 
+-- QUICK-SCOPE CONFIG 
+-- Trigger a highlight in the appropriate direction when pressing these keys:
+vim.g.qs_highlight_on_keys = {'f', 'F', 't', 'T'}
+-- END QUICK-SCOPE CONFIG
+
 
 require("symbols-outline").setup()
 
