@@ -80,6 +80,12 @@ vim.g.qs_highlight_on_keys = {'f', 'F', 't', 'T'}
 -- END QUICK-SCOPE CONFIG
 
 
+-- vim-wiki config
+vim.o.compatible = false  -- set nocompatible
+vim.cmd('filetype plugin on')  -- filetype plugin on
+vim.cmd('syntax on')  -- syntax on
+-- end vim-wiki config
+
 require("symbols-outline").setup()
 
 vim.api.nvim_set_keymap('n', 'A', '<cmd>lua toggle_width_adaptive()<CR>', { noremap = true, silent = true })
