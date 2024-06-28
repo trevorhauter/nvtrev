@@ -76,8 +76,7 @@ vim.g.ale_fix_on_save = 1
 
 -- QUICK-SCOPE CONFIG 
 -- Trigger a highlight in the appropriate direction when pressing these keys:
--- This is currently disabled because I want to see if every line
---vim.g.qs_highlight_on_keys = {'f', 'F', 't', 'T'}
+vim.g.qs_highlight_on_keys = {'f', 'F', 't', 'T'}
 -- END QUICK-SCOPE CONFIG
 
 
