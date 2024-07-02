@@ -97,7 +97,7 @@ return require('packer').startup(function(use)
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.8',
 	  -- or                            , branch = '0.1.x',
-	  requires = { {'nvim-lua/plenary.nvim'} } -- plenary is imported above... Do I need this here?
+	  requires = { {'nvim-lua/plenary.nvim'}, {'BurntSushi/ripgrep'} } -- plenary is imported above... Do I need this here?
   }
 
 
