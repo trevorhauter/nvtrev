@@ -34,6 +34,7 @@ return require('packer').startup(function(use)
   -- QUICKSCOPE - fast in-line navigation
   use('unblevable/quick-scope')
 
+
   -- HARPOON (and dependencies) - To easily jump between files
   use "nvim-lua/plenary.nvim" 
   use {
@@ -97,6 +98,7 @@ return require('packer').startup(function(use)
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.8',
 	  -- or                            , branch = '0.1.x',
+      -- To me it seems like requiring ripgrep here doesn't actually add it. Am I wrong?
 	  requires = { {'nvim-lua/plenary.nvim'}, {'BurntSushi/ripgrep'} } -- plenary is imported above... Do I need this here?
   }
 
@@ -112,6 +114,9 @@ return require('packer').startup(function(use)
   -- VIM-GITGUTTER - Real time git feedback when editing files
   use('airblade/vim-gitgutter')
 
+
+  -- VIM-SURROUND - Makes wrapping crap in quotes or parenthesis or whatever a lot easier
+  use('tpope/vim-surround')
 
   -- VIM-WIKI - For all of my organization, documentation, and note taking needs!
   use('vimwiki/vimwiki') 
