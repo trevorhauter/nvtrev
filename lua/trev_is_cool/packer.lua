@@ -66,6 +66,9 @@ return require('packer').startup(function(use)
   }
 
 
+  -- NEOSCROLL - to make scrolling better
+  use('karb94/neoscroll.nvim')
+
   -- NERDCOMMENTER - To easily comment/uncomment lines
   use('preservim/nerdcommenter')
 
