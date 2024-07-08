@@ -21,6 +21,7 @@ We have all kinds of plugins in nvTrev, the current configuration can be found i
 - [isort](https://github.com/stsewd/isort.nvim) - To sort python imports! (This one is basically in trial mode. Not too sure about it yet)
 - [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim) - For LSPs baby! (along with whatever other packer plugins are included in the default lsp-zero config)
 - [mason](https://github.com/williamboman/mason.nvim) - (In tandem with lsp-zero) so we can install an lsp server as easy as a packer plugin!
+- [neoscroll](https://github.com/karb94/neoscroll.nvim) - For smooth scrolling in vim! More helpful than you'd think...
 - [nerdcommenter](https://github.com/preservim/nerdcommenter) - To easily be able to comment out lines
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - To help us navigate the file tree whenever we need it
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - For syntax highlighting!
