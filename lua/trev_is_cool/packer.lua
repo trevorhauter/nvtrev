@@ -73,6 +73,9 @@ return require('packer').startup(function(use)
   use('preservim/nerdcommenter')
 
 
+  -- NVIM-JDTLS - For an IDE like experience with Java!
+  use('mfussenegger/nvim-jdtls')
+
   -- NVIM-TREE - file tree navigation!
   use {
       'nvim-tree/nvim-tree.lua',
