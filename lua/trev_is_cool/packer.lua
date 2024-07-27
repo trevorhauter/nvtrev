@@ -20,6 +20,15 @@ return require('packer').startup(function(use)
   -- ALE - for linting!
   use('dense-analysis/ale')
   
+  
+  -- AUTO PAIRS - to make pairs work better... duh
+  use {
+    "windwp/nvim-autopairs",
+    event = "InsertEnter",
+    config = function()
+        require("nvim-autopairs").setup {}
+    end
+  } 
 
   -- EVERFOREST - a beautiful theme!
   use {
