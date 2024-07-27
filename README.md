@@ -14,6 +14,7 @@ Full disclosure, I created this following Primagens tutorial. You'd best watch i
 We have all kinds of plugins in nvTrev, the current configuration can be found in [packer.lua](https://github.com/trevorhauter/nvtrev/blob/main/lua/trev_is_cool/packer.lua). We have...
 
 - [Ale](https://github.com/dense-analysis/ale) - For linting!
+- [Autopairs](https://github.com/windwp/nvim-autopairs)_- For autocompletiong and more intelligent handling of pairs
 - [everforest](https://github.com/sainnhe/everforest) - Because every IDE needs a beautiful theme!
 - [fugitive](https://github.com/tpope/vim-fugitive) - To enable git interactions right inside of nvTrev!
 - [quick-scope](https://github.com/unblevable/quick-scope) - To make in-line navigation a breeze!
