@@ -92,7 +92,7 @@ vim.api.nvim_set_keymap('n', '<C-a>', '<cmd>lua toggle_width_adaptive()<CR>', { 
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
-
+--print("test1")
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
