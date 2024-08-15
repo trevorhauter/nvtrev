@@ -97,7 +97,7 @@ return require('packer').startup(function(use)
   -- NVIM-TREESITTER (and dependencies) - For syntax highlighting
   -- At the moment, it doesn't seem like TSUpdate is auto-running. So if you run into issues with treesitter,
   -- run that command
-  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  use {'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}
   use('nvim-treesitter/playground')
 
 
