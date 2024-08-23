@@ -129,14 +129,6 @@ return require('packer').startup(function(use)
   -- VIM-GITGUTTER - Real time git feedback when editing files
   use('airblade/vim-gitgutter')
 
-  -- VIM-MATCHUP ... So I know where the damn closing tag is on html elements
-  use {
-    'andymass/vim-matchup',
-    setup = function()
-      -- may set any options here
-      vim.g.matchup_matchparen_offscreen = { method = "popup" }
-    end
-  }
 
   -- VIM-SURROUND - Makes wrapping crap in quotes or parenthesis or whatever a lot easier
   use('tpope/vim-surround')
