@@ -32,7 +32,6 @@ We have all kinds of plugins in nvTrev, the current configuration can be found i
 - [undotree](https://github.com/mbbill/undotree) - To visualize the history of our files (I've never used this)
 - [vim-airline](https://github.com/vim-airline/vim-airline) - To give us a beautiful (and informative!) status bar
 - [vim-gitgutter](https://github.com/airblade/vim-gitgutter) - Because I want to see git diff markers every time I make a change in a file!
-- [vim-matchup](https://github.com/andymass/vim-matchup) - To make identifying html tags easier
 - [vim-surround](https://github.com/tpope/vim-surround) - So you can wrap your lines in quotes, brackets, or whatever you need with ease
 - [vimwiki](https://github.com/vimwiki/vimwiki) - For all of my organization, documentation, and note taking needs!
 
