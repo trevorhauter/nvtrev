@@ -1,3 +1,8 @@
+# nvTrev has reached its end of life...
+nvTrev has helped potentially millions edit their with ease and style. However, support and development of nvtrev has ended as of September 4th 2024... 
+
+Don't be sad though, it's being replaced by a much better config! [nvtrev2](https://github.com/trevorhauter/nvtrev2)! Please head on over and give it a star so you can continue to code just like the legendary Trevor Hauter.
+
 # nvTrev - From one dummy to another
 
 nvTrev is the hottest new neovim config on the market. With nvTrev, anybody will be able to code just like the legendary Trevor Hauter! This is not meant to be a base config for others to use however they want (although, they could). It's just the config that the legendary Trevor Hauter uses.
